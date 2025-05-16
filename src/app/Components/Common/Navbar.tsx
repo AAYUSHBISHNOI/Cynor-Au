@@ -105,7 +105,7 @@ const Navbar = () => {
                         <li key={subIndex}>
                           <Link
                             href={subItem.path}
-                            className="block px-4 py-2 hover:bg-[#fb7231] hover:text-white transition-all"
+                            className="block font-Manrope text-base font-normal px-4 py-2 hover:bg-[#fb7231] hover:text-white transition-all"
                           >
                             {subItem.name}
                           </Link>
